@@ -1,47 +1,43 @@
-body{
-  max-width: 100vw;
+body { 
+    max-width: 100vw; 
+    margin: 0; 
+} 
+
+header { 
+    background-color: rgb(245, 220, 220); 
+    color: rgb(67, 12, 12); 
+    text-align: center; 
+    margin: 0 auto; 
+    padding: 8px; 
+    border: 5px solid rgb(118, 51, 51); 
+    display: flex; 
+    justify-content: center; 
+} 
+
+main { 
+    background-color: rgb(245, 220, 220); 
+    color: black; 
+    text-align: center; 
+    margin: 0 auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+} 
+
+article { 
+    display: flex; 
+    border: 1px solid rgb(118, 51, 51); 
+    margin: 16px; 
+    gap: 16px; 
+    padding: 16px; 
+    flex: 1 1 25%; 
+} 
+
+img { 
+    width: 120px; 
+    height: 160px; 
+    object-fit: cover; 
+} 
+
+.artigo-autor { 
+    font-weight: bold; 
 }
-
-header{
-          background-color:rgb(245, 220, 220);
-          color:rgb(67, 12, 12);
-          text-align: center;
-          /*max-width: 800px;*/
-          margin: 0, auto;
-          padding: 8px;
-          border: 5px, solid, rgb(118, 51, 51);
-          display: flexbox;
-       }
-
-       main{
-         background-color: rgb(245, 220, 220);
-         color: black;
-         text-align: center;
-         /*max-width: 800px;*/
-         margin: 0, auto;
-
-         display: flex
-         flex-wrap: wrap;
-
-       }
-
-       article {
-        display: flex;
-
-        border: 1px solid rgb(118, 51, 51);
-
-        margin: 16px;
-        gap: 16px;
-        padding: 16px;
-        flex: 1 1 25%;
-
-       }
-
-       img{
-         width: 120px;
-         height: 160px;
-  
-       }
-       .artigo-autor{
-         font-weight: bold;
-       }
